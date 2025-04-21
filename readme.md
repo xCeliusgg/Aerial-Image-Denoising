@@ -63,7 +63,15 @@ Our training set is a combination of four publicly available aerial scene datase
 
 Below is an example comparison of **Real Clean**, **Noisy Input**, and **Denoised Output**:
 
-![](img/output1.png=668x228)
+<p align="center">
+  <img 
+    src="img/output1.png" 
+    alt="Comparison of Real, Noisy, and Denoised images" 
+    width="600" 
+    height="auto"
+  />
+</p>
+
 ![Comparison of Real, Noisy, and Denoised images](img/output2.png)
 
 - **PSNR:** 33.04 dB  
