@@ -46,7 +46,7 @@ Our training set is a combination of four publicly available aerial scene datase
   <img 
     src="img/disc_loss.png" 
     width="600" 
-    height="200"
+    height="100"
   />
 </p>
 
