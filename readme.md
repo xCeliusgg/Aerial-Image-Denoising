@@ -42,19 +42,24 @@ Our training set is a combination of four publicly available aerial scene datase
 ### Loss Functions
 
 1. **Wasserstein GAN loss with gradient penalty (WGAN‑GP):**  
-   \[
-   \mathcal{L}_D = \mathbb{E}[D(x_{\text{fake}})] - \mathbb{E}[D(x_{\text{real}})] + \lambda_{\text{gp}}\,\mathbb{E}\big[(\|\nabla_{\hat{x}} D(\hat{x})\|_2 - 1)^2\big]
-   \]  
-   \[
-   \mathcal{L}_G^{\text{adv}} = -\,\mathbb{E}[D(x_{\text{fake}})]
-   \]
+   <p align="center">
+  <img 
+    src="img/disc_loss.png" 
+    width="600" 
+    height="200"
+  />
+</p>
 
 2. **Reconstruction loss:** L1 loss between generated and clean images, weighted by 100.  
 3. **Perceptual loss:** L1 loss on feature maps of a pre‑trained VGG‑19 (first 16 layers), weighted by 0.1.  
 4. **Total generator loss:**  
-   \[
-   \mathcal{L}_G = \mathcal{L}_G^{\text{adv}} + 100\,\mathcal{L}_{\text{L1}} + 0.1\,\mathcal{L}_{\text{perc}}
-   \]
+    <p align="center">
+  <img 
+    src="img/gen_loss.png" 
+    width="600" 
+    height="200"
+  />
+</p>
 
 ## Results
 
