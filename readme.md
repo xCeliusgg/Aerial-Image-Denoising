@@ -56,8 +56,8 @@ Our training set is a combination of four publicly available aerial scene datase
     <p align="center">
   <img 
     src="img/gen_loss.png" 
-    width="100" 
-    height="50"
+    width="200" 
+    height="100"
   />
 </p>
 
