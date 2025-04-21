@@ -63,15 +63,15 @@ Below is an example comparison of **Real Clean**, **Noisy Input**, and **Denoise
 <p align="center">
   <img 
     src="img/output1.png" 
-    width="672" 
-    height="224"
+    width="600" 
+    height="200"
   />
 </p>
 <p align="center">
   <img 
     src="img/output2.png" 
-    width="672" 
-    height="224"
+    width="600" 
+    height="200"
   />
 </p>
 
