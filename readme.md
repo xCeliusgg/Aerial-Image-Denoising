@@ -10,7 +10,7 @@ Our training set is a combination of four publicly available aerial scene datase
 
 | Dataset      | Random Noise Files | Multiplicative Noise Files | Gaussian Noise Files |
 |--------------|--------------------|----------------------------|----------------------|
-| Our dataset  |  4584              | 4583                       |4583                  |
+| Our dataset  |  4583              | 4583                       |4584                  |
 
 1. [UC‑Merced dataset](http://vision.ucmerced.edu/datasets/landuse.html), contains 21 scene classes and 100 samples of size 256×256 in each class.  
 2. [WHU‑RS19 dataset](http://dsp.whu.edu.cn/cn/staff/yw/HRSscene.html), has 19 different scene classes and 50 samples of size 600×600 in each class.  
