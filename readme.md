@@ -10,11 +10,8 @@ Our training set is a combination of four publicly available aerial scene datase
 
 | Dataset      | Random Noise Files | Multiplicative Noise Files | Gaussian Noise Files |
 |--------------|--------------------|----------------------------|----------------------|
-| UC‑Merced    |                    |                            |                      |
-| WHU‑RS19     |                    |                            |                      |
-| RSSCN7       |                    |                            |                      |
-| AID          |                    |                            |                      |
------------------------------------------------------------------------------------------
+| Our dataset  |  4584              | 4583                       |4583                  |
+
 1. [UC‑Merced dataset](http://vision.ucmerced.edu/datasets/landuse.html), contains 21 scene classes and 100 samples of size 256×256 in each class.  
 2. [WHU‑RS19 dataset](http://dsp.whu.edu.cn/cn/staff/yw/HRSscene.html), has 19 different scene classes and 50 samples of size 600×600 in each class.  
 3. [RSSCN7 dataset](https://sites.google.com/site/qinzoucn/documents), contains 7 scene classes and 400 samples of size 400×400 in each class.  
@@ -66,13 +63,17 @@ Below is an example comparison of **Real Clean**, **Noisy Input**, and **Denoise
 <p align="center">
   <img 
     src="img/output1.png" 
-    alt="Comparison of Real, Noisy, and Denoised images" 
-    width="600" 
-    height="auto"
+    width="672" 
+    height="224"
   />
 </p>
-
-![Comparison of Real, Noisy, and Denoised images](img/output2.png)
+<p align="center">
+  <img 
+    src="img/output2.png" 
+    width="672" 
+    height="224"
+  />
+</p>
 
 - **PSNR:** 33.04 dB  
 - **SSIM:** 0.9172
