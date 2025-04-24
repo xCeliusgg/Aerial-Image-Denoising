@@ -1,5 +1,11 @@
 # WGAN-Based Aerial Image Denoising
 
+### DIP Project by:
+####Vedansh Kumar (22BCE1615)
+####Sarthak Chaudhary (22BCE1987)
+####Hrut Rajesh Shah (22BCE1760)
+
+
 ## Introduction
 
 This project implements a Wasserstein Generative Adversarial Network (WGAN) with gradient penalty and a perceptual loss term to denoise aerial imagery. Noisy inputs are passed through a U‑Net–inspired generator that learns to reconstruct clean images, while a patch‑based discriminator enforces realism via the Wasserstein loss. We further incorporate an L1 reconstruction loss and a VGG‑based perceptual loss to preserve fine textures and structural details.
