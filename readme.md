@@ -1,5 +1,5 @@
 # WGAN-Based Aerial Image Denoising
-##YT video link: https://youtu.be/NLyhZcTk1HU
+## YT video link: https://youtu.be/NLyhZcTk1HU
 
 ### DIP Project by:
 Vedansh Kumar (22BCE1615)
